@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Page title</title>
+  <meta name="keywords" content="this, is, tags">
+  <meta name="description" content="this is page description">
+  <link href="style.css" rel="stylesheet"> <!--integrated CSS-code-->
+</head>
+ <!-- This text is not displayed because it is commented -->
+<body>
+  <h1>Hello, it's simple HTML-page!</h1>
+  <style>
+    h1 {
+      font-size: 28px;
+      font-family: Monaco, Courier, monospace;  /*CSS-code */
+      color: #618ad2;
+    }
+  </style>
+  <script>
+    var p = document.getElementById("blinking");
+    setInterval(function () {
+      if (p.style.fontSize != "10px") {
+        p.style.fontSize = "10px";              /*JS-code*/
+      } else {
+        p.style.fontSize = "20px";
+      }
+    }, 2000);
+  </script>
+  <script src="scripts.js"></script> <!--integrated JS-code-->
+</body>
+</html>

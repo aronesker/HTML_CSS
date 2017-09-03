@@ -7,15 +7,56 @@
   <title>Page title</title>
   <meta name="keywords" content="this, is, tags">
   <meta name="description" content="this is page description">
-  <link href="style.css" rel="stylesheet"> <!--integrated CSS-code-->
+  <link href="style.css" rel="stylesheet"> 
 </head>
- <!-- This text is not displayed because it is commented -->
+  <!-- This text is not displayed because it is commented -->
 <body>
   <h1>Hello, it's simple HTML-page!</h1>
+  <h2>Header2</h2>
+  <h6>Header6</h6>
+  <p>Paragraph</p>
+  <!-- Unordered list -->
+  <ul>
+    <li>html</li>
+    <li>head</li>
+    <li>body</li>
+  </ul>
+  <!-- Ordered list -->
+  <ol start="4"> 
+    <li>h1</li>
+    <li>h2</li>
+    <li>h3</li>
+    <li>h4</li>
+    <li>h5</li>
+  </ol>
+  <!-- Multilevel list -->
+  <ul>
+    <li>h1
+      <ul>
+        <li>h1.1</li>
+      </ul>
+    </li>
+  </ul>
+  <dl>
+    <dt>dl</dt>
+    <dd>Definition List</dd>
+
+    <dt>dt</dt>
+    <dd>Definition Term</dd>
+
+    <dt>dd</dt>
+    <dd>Definition Description</dd>
+  </dl>
+  <p><b><i>This text is important.</i></b><strong><em>But this is more important.</em></strong></p>
+  <hr>
+  <br>Those hours that with gentle work did frame 
+  <br>The lovely gaze where every eye doth dwell 
+  <br>Will play the tyrants to the very same, 
+  <br>And that unfair which fairly doth excel;
   <style>
     h1 {
       font-size: 28px;
-      font-family: Monaco, Courier, monospace;  /*CSS-code */
+      font-family: Monaco, Courier, monospace; 
       color: #618ad2;
     }
   </style>
@@ -23,12 +64,12 @@
     var p = document.getElementById("blinking");
     setInterval(function () {
       if (p.style.fontSize != "10px") {
-        p.style.fontSize = "10px";              /*JS-code*/
+        p.style.fontSize = "10px";             
       } else {
         p.style.fontSize = "20px";
       }
     }, 2000);
   </script>
-  <script src="scripts.js"></script> <!--integrated JS-code-->
+  <script src="scripts.js"></script> 
 </body>
 </html>

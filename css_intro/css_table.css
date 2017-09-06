@@ -3,23 +3,50 @@ body {
     margin: 0;
     padding: 0 10px;
     font-size: 14px;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;    
 }
 
-caption{
+caption {
     caption-side: bottom;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
-th{
+th {
     border-bottom: 2px solid black;
+    padding: 10px;
+    background-color: lightcyan;
+    color: darkblue;
+    width: 100px;
+}
+
+.top {
+  border-top: 2px solid black;
+}
+
+td {
+    border-bottom: 3px solid lightgray;
     padding: 10px;
 }
 
-td{
-    border: 1px solid lightgray;
-    padding: 10px;
+.name {
+  text-align: left;
+  background-color: lightyellow;
+  color: red;
+  border-right: solid lightgray;
+}
+
+.gender {
+  text-align: center;
+  background-color: lightgreen;
+  color: lightyellow;
+  border-right: lightgray;
+}
+
+.age {
+  text-align: right;
+  background-color: lightskyblue;
+  color: white;
 }

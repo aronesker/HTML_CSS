@@ -15,7 +15,7 @@ table {
 }
 
 th {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
     padding: 10px;
     background-color: lightcyan;
     color: darkblue;
@@ -35,18 +35,18 @@ td {
   text-align: left;
   background-color: lightyellow;
   color: red;
-  border-right: solid lightgray;
+  border-right: 3px solid lightgray;
 }
 
 .gender {
   text-align: center;
   background-color: lightgreen;
   color: lightyellow;
-  border-right: lightgray;
 }
 
 .age {
   text-align: right;
+  border-left: 3px solid  lightgray;
   background-color: lightskyblue;
   color: white;
 }

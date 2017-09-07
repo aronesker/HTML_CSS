@@ -4,23 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Form</title>
 </head>
 <body>
   <h1>Proflle</h1>
-
   <form action="URL" method="post">
     <br><label for="name">Your name:</label>
-    <input name="name" type="text" id="name"></br>
+    <input name="name" type="text" id="name">
     <br><label for="surname">Your surname:</label>
-    <input name="surname" type="text" id="name"></br>
-    <hr>
-    <label for="gender">Gender:<label>
-    <input name="gender" type="radio" value="m" id="gender">Male
-    <input name="gender" type="radio" value="f" id="gender" checked>Female
-    <hr>
-    <label for="month">Month:</label>
-    <br><select name="month" id="month"></br>
+    <input name="surname" type="text" id="surname">
+    <hr><label>Gender:</label>
+    <input name="gender" type="radio" value="m">Male
+    <input name="gender" type="radio" value="f" checked>Female
+    <hr><label for="month">Month:</label>
+    <br><select name="month" id="month">
       <option>January</option>
       <option>February</option>
       <option>March</option>
@@ -34,7 +31,7 @@
       <option>November</option>
       <option>December</option>
     </select>
-    <br><label for="year">Year:</label></br>
+    <br><label for="year">Year:</label>
     <select name="year" id="year">
       <option>1970</option>
       <option>1971</option>
@@ -69,9 +66,8 @@
       <option>1999</option>
       <option>2000</option>
     </select>
-    <hr>
-    <label for="technologies">Markup languages:</label></br>
-    <select multiple size="4">
+    <hr><label for="technologies">Markup languages:</label>
+    <br><select id="technologies" multiple size="4">
       <option>HTML</option>
       <option selected>CSS</option>
       <option>JavaScript</option>

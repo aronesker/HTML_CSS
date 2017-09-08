@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Page title</title>
   <meta name="keywords" content="this, is, tags">
   <meta name="description" content="this is page description">
-  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" media="(max-width: 640px)" href="file:///C:/HTML_CSS/css_intro/max-640px.css">
+  <link rel="stylesheet" media="(min-width: 640px)" href="file:///C:/HTML_CSS/css_intro/min-640px.css">
+  <link rel="stylesheet" media="(orientation: portrait)" href="file:///C:/HTML_CSS/css_intro/portrait.css">
+  <link rel="stylesheet" media="(orientation: landscape)" href="file:///C:/HTML_CSS/css_intro/landscape.css">
+  <title>Page title</title>
   <style>
     h1 {
       font-size: 28px;
@@ -18,54 +22,62 @@
 </head>
 <body>
   <!-- This text is not displayed because it is commented -->
-  <h1>Hello, it's simple HTML-page!</h1>
-  <h2>Header2</h2>
-  <h6>Header6</h6>
-  <p>Paragraph</p>
-  <!-- Unordered list -->
-  <ul>
-    <li>html</li>
-    <li>head</li>
-    <li>body</li>
-  </ul>
-  <!-- Ordered list -->
-  <ol start="4"> 
-    <li>h1</li>
-    <li>h2</li>
-    <li>h3</li>
-    <li>h4</li>
-    <li>h5</li>
-  </ol>
-  <!-- Multilevel list -->
-  <ul>
-    <li>h1
-      <ul>
-        <li>h1.1</li>
-      </ul>
-    </li>
-  </ul>
-  <dl>
-    <dt>dl</dt>
-    <dd>Definition List</dd>
+  <div>
+    <h1>Hello, it's simple HTML-page!</h1>
+    <h2>Header2</h2>
+    <h6>Header6</h6>
+    <p>Paragraph</p>
+    <!-- Unordered list -->
+    <ul>
+      <li>html</li>
+      <li>head</li>
+      <li>body</li>
+    </ul>
+    <!-- Ordered list -->
+    <ol start="4"> 
+      <li>h1</li>
+      <li>h2</li>
+      <li>h3</li>
+      <li>h4</li>
+      <li>h5</li>
+    </ol>
+    <!-- Multilevel list -->
+    <ul>
+      <li>h1
+        <ul>
+          <li>h1.1</li>
+        </ul>
+      </li>
+    </ul>
+    <dl>
+      <dt>dl</dt>
+      <dd>Definition List</dd>
 
-    <dt>dt</dt>
-    <dd>Definition Term</dd>
+      <dt>dt</dt>
+      <dd>Definition Term</dd>
 
-    <dt>dd</dt>
-    <dd>Definition Description</dd>
-  </dl>
-  <p><b><i>This text is important.</i></b><br><strong><em>But this is more important.</em></strong></p>
-  <hr>
-  <blockquote> Those hours that with gentle work did frame 
-  The lovely gaze where every eye doth dwell 
-  Will play the tyrants to the very same, 
-  And that unfair which fairly doth excel;</blockquote>
-  <pre>
-  1
-    2
-      3
-        4
-  </pre>
+      <dt>dd</dt>
+      <dd>Definition Description</dd>
+    </dl>
+    <p><b><i>This text is important.</i></b><br><strong><em>But this is more important.</em></strong></p>
+    <hr>
+    <blockquote> Those hours that with gentle work did frame 
+    The lovely gaze where every eye doth dwell 
+    Will play the tyrants to the very same, 
+    And that unfair which fairly doth excel;</blockquote>
+    <pre>
+    1
+      2
+        3
+          4
+    </pre>
+    <article>In this course you'll learn the fundamentals of responsive web design with Google's Pete LePage! You'll
+    create your own responsive web page that works well on any device - phone, tablet, desktop or anything
+    in between. You’ll start by exploring what makes a site responsive and how some common responsive
+    design patterns work across different devices. From there, you’ll learn how to create your own responsive
+    layout using the viewport tag and CSS media queries. As you proceed, you’ll experiment with major
+    and minor breakpoints, and optimizing text for reading.</article>
+  </div>
   <script>
     var p = document.getElementById("blinking");
     setInterval(function () {

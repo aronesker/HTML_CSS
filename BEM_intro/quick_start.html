@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+  <title>Document</title>
+</head>
+<body>
+  <!-- Блок `header` -->
+  <header class="header">
+    <!-- Вложенный блок `logo` -->
+    <div class="logo"></div>
+
+    <!-- Вложенный блок `search-form` -->
+    <form class="search-form"></form>
+  </header>
+  <!-- Блок `search-form` -->
+  <form class="search-form">
+    <!-- Элемент `input` блока `search-form` -->
+    <input class="search-form__input">
+
+    <!-- Элемент `button` блока `search-form` -->
+    <button class="search-form__button">Найти</button>
+  </form>
+  <!-- Блок `search-form` имеет булевый модификатор `focused` -->
+  <form class="search-form search-form_focused">
+    <input class="search-form__input">
+
+    <!-- Элемент `button` имеет булевый модификатор `disabled` -->
+    <button class="search-form__button search-form__button_disabled">Найти</button>
+  </form>
+  <!-- Блок `search-form` имеет модификатор `theme` со значением `islands` -->
+  <form class="search-form search-form_theme_islands">
+    <input class="search-form__input">
+
+    <!-- Элемент `button` имеет модификатор `size` со значением `m` -->
+    <button class="search-form__button search-form__button_size_m">Найти</button>
+  </form>
+  <!-- Блок `header` -->
+  <div class="header">
+    <!-- К блоку `search-form` примиксован элемент `search-form` блока `header`-->
+    <div class="search-form header__search-form"></div>
+  </div>
+</body>
+</html>

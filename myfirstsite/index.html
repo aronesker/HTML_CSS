@@ -31,17 +31,18 @@
       <form method="post" id="register">
         <h2>Register for the launch</h2>
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Thomas A Anderson" required>
-        <label for="email">Email address</label>
-        <input type="email" name="email" id="email" placeholder="neo@example.com" required>
-        <label for="tel">Telephone</label>
-        <input type="tel" name="tel" id="tel" placeholder="(555) 555 5555" required>
-        <input type="submit" value="Sign up">
+        <br><input type="text" name="name" id="name" placeholder="Thomas A Anderson" required>
+        <br><label for="email">Email address</label>
+        <br><input type="email" name="email" id="email" placeholder="neo@example.com" required>
+        <br><label for="tel">Telephone</label>
+        <br><input type="tel" name="tel" id="tel" placeholder="(555) 555 5555" required>
+        <br><input type="submit" value="Sign up">
       </form>
     </div>
     <div id="section1">
       <div class="container">
-        <h2>What will I learn?</h2>
+        <br>
+        <h1 class="section1__info">What will I learn?</h1>
         <p>After completing this class, you'll have built a web application with a first-class mobile experience.</p>
         <p>You'll understand what it takes to:</p>
         <ul>
@@ -60,8 +61,9 @@
       </div>
     </div>
     <div id="section2">
-    <h2>Who will teach me?</h2>
-    <p>The world's leading mobile web developers.</p>
+      <div class="container">
+    <h2 class="section2__info">Who will teach me?</h2>
+    <p class="section2__info">The world's leading mobile web developers.</p>
     <div id="images">
       <img src="https://s3-us-west-1.amazonaws.com/udacity-content/instructor/chris-wilson@2x-bdc839f.jpg" alt="Chris Wilson: Course Instructor">
       <img src="https://s3-us-west-1.amazonaws.com/udacity-content/instructor/peter-lubbers@2x-b89810c.jpg" alt="Peter Lubbers: Course Instructor">
@@ -69,59 +71,62 @@
     </div>
     <br>
     </div>
-    <div id="section3">
-      <h2>Mobile. Why should I care?</h2>
-      <p>It is huge. Everywhere.</p>
-      <table>
-        <caption>
-          <p>Data from <a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-ww-monthly-201303-201403">StatsCounter</a></p>
-        </caption>
-        <thead>
-          <tr>
-            <th>Country</th>
-            <th>Desktop share</th>
-            <th>Tablet share</th>
-            <th>Mobile share</th>
-          </tr>
-        </thead>
-        <colgroup>
-          <col span="1">
-          <col span="1">
-          <col span="1">
-          <col span="1">
-        </colgroup>
-        <tbody>
-          <tr>
-            <td><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-IN-monthly-201303-201403">India</a></td>
-            <td>32%</td>
-            <td>1%</td>
-            <td>67%</td>
-          </tr>
-          <tr>
-            <td><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-GB-monthly-201303-201403">GB</a></td>
-            <td>69%</td>
-            <td>13%</td>
-            <td>18%</td>
-          </tr>
-          <tr>
-            <td><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-US-monthly-201303-201403">US</a></td>
-            <td>69%</td>
-            <td>9%</td>
-            <td>22%</td>
-          </tr>
-          <tr>
-            <td><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-CN-monthly-201303-201403">China</a></td>
-            <td>86%</td>
-            <td>4%</td>
-            <td>10%</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-    </div>
+  </div>
+    <div id="section3" class="data-table">
+      <div class="container">
+      <h2 class="section3__info">Mobile. Why should I care?</h2>
+      <p class="section3__info">It is huge. Everywhere.</p>
+        <table>
+          <caption>
+            <p>Data from <a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-ww-monthly-201303-201403">StatsCounter</a></p>
+          </caption>
+          <thead>
+            <tr>
+              <th>Country</th>
+              <th>Desktop share</th>
+              <th>Tablet share</th>
+              <th>Mobile share</th>
+            </tr>
+          </thead>
+          <colgroup>
+            <col span="1">
+            <col span="1">
+            <col span="1">
+            <col span="1">
+          </colgroup>
+          <tbody>
+            <tr>
+              <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-IN-monthly-201303-201403">India</a></td>
+              <td data-th="Desktop share">32%</td>
+              <td data-th="Table share">1%</td>
+              <td data-th="Mobile share">67%</td>
+            </tr>
+            <tr>
+              <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-GB-monthly-201303-201403">GB</a></td>
+              <td data-th="Desktop share">69%</td>
+              <td data-th="Table share">13%</td>
+              <td data-th="Mobile share">18%</td>
+            </tr>
+            <tr>
+              <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-US-monthly-201303-201403">US</a></td>
+              <td data-th="Desktop share">69%</td>
+              <td data-th="Table share">9%</td>
+              <td data-th="Mobile share">22%</td>
+            </tr>
+            <tr>
+              <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-CN-monthly-201303-201403">China</a></td>
+              <td data-th="Desktop share">86%</td>
+              <td data-th="Table share">4%</td>
+              <td data-th="Mobile share">10%</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        </div>
+      </div>
     <footer>
       <div class="container">
-        <p>We always need a footer.</p>
+        <p class="section3__info">We always need a footer.</p>
       </div>
     </footer>
     <script>

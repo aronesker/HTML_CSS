@@ -1,0 +1,49 @@
+.navbar__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar__item {
+  float: left;
+}
+
+.navbar__item-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar__item-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.navbar__item-search {
+  float: right;
+
+}
+
+.navbar__item-bag {
+  float: right;
+}
+
+.navbar__item-input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: white;
+  background-image: url("https://www.w3schools.com/css/searchicon.png");
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 14px 15px 12px 40px;
+}

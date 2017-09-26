@@ -13,10 +13,11 @@ body {
   top: 0;
   width: 100%;
   opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar__item {
-  float: left;
 }
 
 .navbar__item-link {
@@ -33,7 +34,6 @@ body {
 }
 
 .navbar__item-search {
-  float: right;
 
 }
 
@@ -92,4 +92,7 @@ footer {
 .navbar__item {
   display: block;
 }
+
+.navbar__list {
+  flex-direction: column;
 }

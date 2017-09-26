@@ -10,6 +10,7 @@
     type="image/x-icon">
 </head>
 <body>
+  <a href="#" class="mobile_menu_click"><span><img src="https://cdn2.iconfinder.com/data/icons/set-of-menu-icon/512/menu_lines_Hamburger_-128.png" alt="apple logo" width=100%></img></span></a>
   <div class="navbar">
     <ul class="navbar__list">
       <li class="navbar__item"><a class="navbar__item-link navbar__item-logo" href=""><span><img src="https://vignette2.wikia.nocookie.net/fallout/images/a/ab/Apple-logo.png/revision/latest?cb=20150618195057" alt="apple logo" width=100%></img></span></a></li>
@@ -25,7 +26,7 @@
       <li class="navbar__item navbar__item-bag"><a class="navbar__item-link" href="">Your Bag</a></li>
     </ul>
   </div>
-  <div class="container_fluid" style="margin-top: 50px">
+  <div class="content" style="margin-top: 50px">
     <a href="https://apple.com/iphone-8/"><img src="https://image.ibb.co/dcAur5/image.png" alt="iphone8" width="100%" hspace="1px"
       ></a>
     <a href="https://apple.com/iphone-x/"><img src="https://image.ibb.co/fHpb4Q/1.png" alt="iphoneX" width="100%" hspace="1px"></a>
@@ -34,5 +35,89 @@
     <a href="https://apple.com/apple-events/september-2017/"><img src="https://image.ibb.co/fcmpPQ/4.png" alt="events" width="100%" hspace="1px"></a>
     <a href="https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/buyCharityGiftWizard"><img src="https://image.ibb.co/k2Osdk/5.png" alt="donate" width="100%" hspace="1px"></a>
   </div>
+  <footer>
+    <div>
+      <ul class="footer__list">
+        <li><strong>Shop and Learn</strong></li>
+        <li><a class="footer__list-item" href="#">Mac</a></li>
+        <li><a class="footer__list-item" href="#">iPad</a></li>
+        <li><a class="footer__list-item" href="#">iPhone</a></li>
+        <li><a class="footer__list-item" href="#">Watch</a></li>
+        <li><a class="footer__list-item" href="#">TV</a></li>
+        <li><a class="footer__list-item" href="#">Music</a></li>
+        <li><a class="footer__list-item" href="#">iTunes</a></li>
+        <li><a class="footer__list-item" href="#">HomePod</a></li>
+        <li><a class="footer__list-item" href="#">iPod Touch</a></li>
+        <li><a class="footer__list-item" href="#">Accessories</a></li>
+        <li><a class="footer__list-item" href="#">GiftCards</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="footer__list">
+        <li><strong>Apple Store</strong></li>
+        <li><a class="footer__list-item" href="#">Find a Store</a></li>
+        <li><a class="footer__list-item" href="#">Genius Bar</a></li>
+        <li><a class="footer__list-item" href="#">Today at Apple</a></li>
+        <li><a class="footer__list-item" href="#">Apple Camp</a></li>
+        <li><a class="footer__list-item" href="#">Field Trip</a></li>
+        <li><a class="footer__list-item" href="#">Apple Store App</a></li>
+        <li><a class="footer__list-item" href="#">Refurbished and Clearance</a></li>
+        <li><a class="footer__list-item" href="#">Financing</a></li>
+        <li><a class="footer__list-item" href="#">Reuse and Recycling</a></li>
+        <li><a class="footer__list-item" href="#">Order status</a></li>
+        <li><a class="footer__list-item" href="#">Shopping help</a></li>
+      </ul>
+    </div> 
+    <div>
+      <ul class="footer__list">
+        <li><strong>For education</strong></li>
+        <li><a class="footer__list-item" href="#">Apple and Education</a></li>
+        <li><a class="footer__list-item" href="#">Shop for College</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="footer__list">
+        <li><strong>Account</strong></li>
+        <li><a class="footer__list-item" href="#">Manage Your Apple ID</a></li>
+        <li><a class="footer__list-item" href="#">Apple Store Account</a></li>
+        <li><a class="footer__list-item" href="#">iCloud.com</a></li>
+      </ul>
+  </div>
+  <div>
+    <ul class="footer__list">
+      <li><strong>About Apple</strong></li>
+      <li><a class="footer__list-item" href="#">Newsroom</a></li>
+      <li><a class="footer__list-item" href="#">Apple Leadership</a></li>
+      <li><a class="footer__list-item" href="#">Job Opportunities</a></li>
+      <li><a class="footer__list-item" href="#">Investors</a></li>
+      <li><a class="footer__list-item" href="#">Events</a></li>
+      <li><a class="footer__list-item" href="#">Contact Apple</a></li>
+    </ul>
+  </div>
+  <div>
+    <ul class="footer__list">
+      <li><strong>For Business</strong></li>
+      <li><a class="footer__list-item" href="#">Apple and Business</a></li>
+      <li><a class="footer__list-item" href="#">Shop for Business</a></li>
+    </ul>
+  </div>
+  <div>
+    <ul class="footer__list">
+      <li><strong>Apple Values</strong></li>
+      <li><a class="footer__list-item" href="#">Accessibility</a></li>
+      <li><a class="footer__list-item" href="#">Education</a></li>
+      <li><a class="footer__list-item" href="#">Environment</a></li>
+      <li><a class="footer__list-item" href="#">Inclusion and Diversity</a></li>
+      <li><a class="footer__list-item" href="#">Privacy</a></li>
+      <li><a class="footer__list-item" href="#">Supplier Responsibility</a></li>
+    </ul>
+  </div>
+  </footer>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+    $('.mobile_menu_click').click(function(){
+       $('.navbar').fadeToggle();
+    });
+  </script>
 </body>
 </html>

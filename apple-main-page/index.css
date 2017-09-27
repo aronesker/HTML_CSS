@@ -46,7 +46,7 @@ body {
 footer {
   display: flex;
   background-color: lightgray;
-  justify-content: space-around;
+  justify-content: space-around;\
 }
 
 .footer__list {
@@ -54,7 +54,7 @@ footer {
   margin: 20px;
   padding: 10px;
   overflow: hidden;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .footer__list-item {
